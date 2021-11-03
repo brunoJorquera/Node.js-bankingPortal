@@ -1,0 +1,12 @@
+<%- include('header') %>
+
+<div class="container">
+    <%- include('summary', { account:
+    accounts.checking }) %>
+    <h1><%= title%></h1>
+    <a href="/profile">Profile</a>
+</div>
+
+</br><a href="/transfer">Transfer</a>
+
+<%- include('footer') %>
